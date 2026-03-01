@@ -1,24 +1,37 @@
-# 🌐 Janaki Lakshmi Jasti – Portfolio
+# 🌐 Janaki Lakshmi Jasti – Personal Portfolio
 
-Welcome to my personal portfolio website!
+Welcome to my professional portfolio website!
 
-This website showcases my projects, technical skills, certifications, and experience in Computer Science, Data Science, and Machine Learning.
+This website showcases my experience, projects, research publications, certifications, and technical skills in Computer Science, Data Science, Machine Learning, and Software Development.
 
-🔗 Live Website:
+🔗 **Live Website:**  
 https://JASTIJANAKILAKSHMI.github.io
 
 ---
 
 ## 👩‍💻 About Me
 
-I am a Master's student in Computer Science at Texas A&M University–Kingsville with a strong interest in:
+Master’s student in Computer Science at Texas A&M University – Kingsville with a 4.0 GPA.
 
-- Machine Learning
-- Data Science
-- Web Development
-- Software Engineering
+I am passionate about:
+- Machine Learning & AI
+- Data Science & Analytics
+- NLP & LLM Applications
+- Software Development
+- Cloud & DevOps
 
-I enjoy building practical, real-world applications that solve meaningful problems.
+I enjoy building scalable, real-world solutions that solve meaningful problems.
+
+---
+
+## 🚀 Website Features
+
+- 🌙 Dark Mode Toggle
+- 📊 Animated Skill Progress Bars
+- 🎯 Scroll-triggered Animations
+- 📱 Fully Responsive Design
+- ⬆ Back-to-Top Button
+- 🔗 Direct Links to GitHub Projects & Publications
 
 ---
 
@@ -26,38 +39,60 @@ I enjoy building practical, real-world applications that solve meaningful proble
 
 - HTML5
 - CSS3
+- Bootstrap 5
 - JavaScript
-- Bootstrap
-- Git & GitHub
+- Font Awesome
+- Git & GitHub Pages
+
+---
+
+## 💼 Work Experience
+
+### Texas A&M University – Kingsville  
+**Student Worker | Dec 2024 – Present**
+- Uploaded and maintained faculty CV information in Watermark.
+- Assisted with teaching load calculations.
+- Developed Laserfiche electronic forms to streamline digital workflows.
+
+### DataValley Inc., Hyderabad, India  
+**Data Science Intern | Jan 2024 – Apr 2024**
+- Applied machine learning models on 25,000+ user datasets.
+- Worked with NLP & LLMs for text analysis.
+- Built dashboards using Python, SQL, and Power BI.
 
 ---
 
 ## 📂 Featured Projects
 
-### 🔹 Fake Profile Identification using ML & NLP
-- Built a machine learning model to detect fake social media profiles.
-- Used Python, Scikit-learn, NLP techniques.
-- Applied feature extraction and classification algorithms.
+### 🔹 AI Assistant for Student Life
+LLM-based assistant for answering student queries.  
+Docker-based deployment for scalable environments.
 
-### 🔹 Weight Class Prediction System
-- Developed ML models to predict weight categories.
-- Compared SVM, Random Forest, Logistic Regression, and KNN.
+### 🔹 Predicting Airline Passenger Satisfaction
+Built ML models (Logistic Regression, Random Forest, XGBoost) with EDA and feature engineering.
 
-### 🔹 Portfolio Website
-- Responsive personal website.
-- Designed using HTML, CSS, and Bootstrap.
-- Deployed using GitHub Pages.
+### 🔹 Fake Profile Identification in Social Networks
+Machine Learning & NLP pipeline using SVM, Naive Bayes, Random Forest, and TF-IDF.
 
 ---
 
-## 📜 Certifications
+## 📚 Publication
 
-- Journal Publication – IRJMETS (2024)
-- Data Science & AI Internship – APSCHE
+**Fake Profile Identification in Social Networks Using Machine Learning and NLP**  
+Published in IRJMETS – May 2024.
 
 ---
 
-## 📫 Contact Me
+## 🏆 Certifications
+
+- Wipro TalentNext – Java Full Stack Developer
+- Cisco Networking Academy – Introduction to Data Science
+- Brainovision – Python Developer
+- Code Debugging Challenge – Top Performer (2022)
+
+---
+
+## 📬 Contact
 
 📍 Kingsville, TX  
 📧 Janaki.jasti@gmail.com  
@@ -65,4 +100,13 @@ I enjoy building practical, real-world applications that solve meaningful proble
 
 ---
 
-⭐ Thank you for visiting my portfolio!
+## ⭐ Deployment
+
+This portfolio is deployed using **GitHub Pages** from the repository:
+
+JASTIJANAKILAKSHMI.github.io
+
+---
+
+Thank you for visiting my portfolio!
+If you like this project, feel free to ⭐ the repository.
