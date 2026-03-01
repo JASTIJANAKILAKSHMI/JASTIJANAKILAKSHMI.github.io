@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work & Experience | Janaki Lakshmi Jasti</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body { 
+            font-family: "Times New Roman", Times, serif; 
+            color: #1a1a1a; 
+            background-color: #fff;
+            margin: 0;
+        }
+
+        /* NAVBAR & BLACK DROPDOWN */
+        .navbar { padding: 1.5rem 0; background: white !important; border-bottom: 1px solid #eee; }
+        .nav-link { font-size: 1rem; color: #1a1a1a !important; cursor: pointer; }
+        
+        .custom-dropdown {
+            background-color: #000 !important;
+            border: none;
+            border-radius: 0;
+            padding: 20px 0;
+            min-width: 280px;
+        }
+        .custom-dropdown .dropdown-item {
+            color: #ffffff !important;
+            font-size: 1.1rem;
+            padding: 10px 25px;
+            text-align: right;
+            border: none;
+            background: none;
+            width: 100%;
+            cursor: pointer;
+        }
+        .custom-dropdown .dropdown-item:hover {
+            background-color: #1a1a1a !important;
+            text-decoration: underline;
+        }
+        .dropdown-toggle::after { display: none; }
+
+        /* TAB PANE BEHAVIOR */
+        .tab-pane { min-height: 80vh; display: none; }
+        .tab-pane.active { display: block; }
+
+        /* SPLIT-SCREEN LAYOUT */
+        .split-row { display: flex; flex-wrap: wrap; min-height: 85vh; border-bottom: 1px solid #eee; }
+        .split-image { flex: 1; min-width: 50%; background-size: cover; background-position: center; min-height: 450px; }
+        .split-text { 
+            flex: 1; 
+            min-width: 50%; 
+            padding: 8% !important; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            background-color: #ffffff; /* Consistent white background */
+        }
+
+        /* CARDS FOR PROJECTS & CERTS */
+        .card-custom {
+            border: 1px solid #eaeaea;
+            padding: 40px;
+            height: 100%;
+            transition: 0.3s;
+            background: #fff;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .card-custom:hover { border-color: #3b2b23; transform: translateY(-5px); }
+
+        @media (max-width: 992px) {
+            .split-image { min-height: 350px; }
+            .split-text { padding: 3rem 1.5rem !important; }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">JANAKI LAKSHMI JASTI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#workNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="workNav">
+            <ul class="navbar-nav ms-auto gap-4">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="workDropdown" role="button" data-bs-toggle="dropdown">
+                        Janaki's Work
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end custom-dropdown">
+                        <li><button class="dropdown-item nav-tab-link" data-target="exp-tab">Professional Experience</button></li>
+                        <li><button class="dropdown-item nav-tab-link" data-target="proj-tab">Academic Projects</button></li>
+                        <li><button class="dropdown-item nav-tab-link" data-target="cert-tab">Certifications & Awards</button></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="about.html">Get to Know Janaki</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="content-container">
+
+    <div class="tab-pane active" id="exp-tab">
+        <div class="split-row">
+            <div class="split-image" style="background-image: url('https://www.deazy.com/hubfs/remote%20team%20meeting.png');"></div>
+            <div class="split-text">
+                <h6 class="text-uppercase mb-3" style="letter-spacing: 3px; color: #888;">Texas A&M University</h6>
+                <h2 class="display-5 fw-bold mb-4">Student Worker</h2>
+                <div style="font-size: 1.1rem; line-height: 1.8; color: #444;">
+                    <p>In this role, I supported faculty and administrative operations by maintaining accurate records of faculty CVs in the <strong>Watermark system</strong> and assisting with teaching load calculations.</p>
+                    <p>I also designed and implemented digital forms in <strong>Laserfiche</strong> to replace traditional paper-based workflows, which improved efficiency, reduced errors, and saved time for staff and faculty.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="split-row flex-md-row-reverse">
+            <div class="split-image" style="background-image: url('https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2025/08/agentforce-marquee-machine-learning-vs-nlp.webp?resize=768,432');"></div>
+            <div class="split-text">
+                <h6 class="text-uppercase mb-3" style="letter-spacing: 3px; color: #888;">DataValley Inc.</h6>
+                <h2 class="display-5 fw-bold mb-4">Data Science Intern</h2>
+                <div style="font-size: 1.1rem; line-height: 1.8; color: #444;">
+                    <p>During my internship, I worked on analyzing large-scale datasets of over <strong>25,000 users</strong> using Python and machine learning techniques to support product optimization and marketing strategies.</p>
+                    <p>I applied <strong>NLP and LLMs</strong> to extract insights from unstructured text data, and built automated data pipelines and interactive <strong>Power BI dashboards</strong> using SQL and Python to visualize complex business problems.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-pane" id="proj-tab">
+        <div class="container py-5 mt-5">
+            <h1 class="text-center mb-5">Selected Projects</h1>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <a href="https://github.com/JASTIJANAKILAKSHMI/Ai_Assistant_Usage_Student_Life" target="_blank" class="card-custom text-center">
+                        <h4 class="fw-bold">AI Assistant</h4>
+                        <p class="text-muted">LLM-powered assistant containerized with Docker.</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://github.com/JASTIJANAKILAKSHMI/Predicting-Airline-passenger-satisfaction" target="_blank" class="card-custom text-center">
+                        <h4 class="fw-bold">Airline Satisfaction</h4>
+                        <p class="text-muted">Predictive models using Random Forest and XGBoost.</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://github.com/JASTIJANAKILAKSHMI/Fake-Profile-Identification-in-Social-Network-using-ML-NLP" target="_blank" class="card-custom text-center">
+                        <h4 class="fw-bold">Fraud Detection</h4>
+                        <p class="text-muted">NLP pipeline detecting fake profiles via SVM.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-pane" id="cert-tab">
+        <div class="container py-5 mt-5">
+            <h1 class="text-center mb-5">Certifications</h1>
+            <div class="row justify-content-center g-4">
+                <div class="col-md-5">
+                    <div class="card-custom text-center">
+                        <i class="fas fa-certificate fa-3x mb-4" style="color: #3b2b23"></i>
+                        <h3 class="fw-bold">Wipro TalentNext</h3>
+                        <p class="lead">Java Full Stack Developer</p>
+                        <a href="https://drive.google.com/file/d/1JRWCQfQCWjzx08PvQmEV-BQr7ib7wW-3/view?usp=sharing" target="_blank" class="btn btn-dark rounded-pill mt-3 px-4">View Certificate</a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card-custom text-center">
+                        <i class="fas fa-award fa-3x mb-4" style="color: #3b2b23"></i>
+                        <h3 class="fw-bold">Cisco Academy</h3>
+                        <p class="lead">Introduction to Data Science</p>
+                        <a href="https://www.credly.com/badges/2efc0e70-b9db-4fa2-8077-da06dcaac51a/public_url" target="_blank" class="btn btn-dark rounded-pill mt-3 px-4">View Badge</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="py-5 text-center border-top">
+    <p class="text-muted small">© 2026 JANAKI LAKSHMI JASTI</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.querySelectorAll('.nav-tab-link').forEach(button => {
+        button.addEventListener('click', function() {
+            const targetId = this.getAttribute('data-target');
+            document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('active'));
+            document.getElementById(targetId).classList.add('active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    });
+</script>
+</body>
+</html>

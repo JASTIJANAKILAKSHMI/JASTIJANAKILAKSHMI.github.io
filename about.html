@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get to Know Janaki | About</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body { 
+            font-family: "Times New Roman", Times, serif; 
+            color: #1a1a1a; 
+            background-color: #fff;
+            margin: 0;
+        }
+
+        /* NAVBAR */
+        .navbar { padding: 1.5rem 0; background: white !important; border-bottom: 1px solid #eee; position: sticky; top: 0; z-index: 1000; }
+        .nav-link { font-size: 1rem; color: #1a1a1a !important; }
+
+        /* FULL PAGE BACKGROUND SECTION */
+        .story-hero {
+            position: relative;
+            min-height: 100vh;
+            /* Replace with your actual background image URL */
+            background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+                        url('https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=2000');
+            background-attachment: fixed; /* Keeps image still while text moves */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 100px 20px;
+        }
+
+        .story-container {
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.6); /* Subtle glass effect */
+            padding: 60px;
+            border-radius: 4px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        .section-label {
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-size: 0.8rem;
+            color: #666;
+            display: block;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .main-title {
+            font-size: 2.5rem;
+            text-align: center;
+            color: #3b2b23;
+            margin-bottom: 3rem;
+            font-weight: 400;
+        }
+
+        .story-body p {
+            font-size: 1.2rem;
+            line-height: 2;
+            margin-bottom: 2rem;
+            color: #222;
+            text-align: justify;
+        }
+
+        .personal-photo {
+            width: 250px;
+            float: left;
+            margin: 0 30px 20px 0;
+            border: 8px solid white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .quote-text {
+            font-size: 1.5rem;
+            font-style: italic;
+            text-align: center;
+            color: #3b2b23;
+            margin: 4rem 0;
+            padding: 0 20px;
+            position: relative;
+        }
+
+        .quote-text::before { content: "“"; font-size: 4rem; position: absolute; left: 0; top: -30px; opacity: 0.1; }
+
+        @media (max-width: 768px) {
+            .story-container { padding: 30px; }
+            .personal-photo { width: 100%; float: none; margin: 0 0 20px 0; }
+            .main-title { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">JANAKI LAKSHMI JASTI</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto gap-4">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="work.html">Janaki's Work</a></li>
+                <li class="nav-item"><a class="nav-link active" href="about.html">Get to Know Janaki</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="story-hero">
+    <div class="story-container">
+        <span class="section-label">Get to Know Me</span>
+        <h1 class="main-title">A Journey Shaped by Strength</h1>
+
+        <div class="story-body">
+            <p>
+                My journey into Machine Learning and Data Science began with curiosity — a desire to understand how data can be transformed into meaningful insights and intelligent solutions. With a strong academic foundation in Computer Science, what started as learning programming fundamentals gradually evolved into exploring advanced machine learning algorithms and predictive modeling.
+            </p>
+
+            <h3 class="mt-5 mb-4 fw-normal" style="color: #3b2b23;">Strength & Fortitude</h3>
+            
+            <img src="https://lh3.googleusercontent.com/u/0/d/1bW6zz-EToxi_H6Ez95cHsryd9kkNhoKO" alt="Early Years" class="personal-photo">
+            
+            <p>
+                I was raised in India as a single child. In 2014, I lost my father at the age of twelve, a moment that profoundly shaped my perspective on life. My mother carried every responsibility with remarkable determination, teaching me resilience, discipline, and the value of hard work.
+            </p>
+            <p>
+                These early experiences cultivated a mindset of problem-solving and persistence — qualities that naturally guided me toward Machine Learning. I was drawn to the field because it combines analytical reasoning and pattern recognition — skills I had been practicing in life long before I wrote my first line of code.
+            </p>
+
+            <div class="quote-text">
+                "I believe challenges are like data points: they teach, refine, and strengthen you."
+            </div>
+
+            <p>
+                Moving to the United States in 2024 to pursue my Master’s degree further strengthened my independence and adaptability — traits I now bring to every project, every dataset, and every model I build. Today, I combine technical expertise with resilience, striving to build intelligent solutions that create meaningful impact.
+            </p>
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="contact.html" class="btn btn-outline-dark rounded-pill px-5 py-3 text-uppercase" style="letter-spacing: 2px;">Connect With Me</a>
+        </div>
+    </div>
+</section>
+
+<footer class="py-5 text-center bg-white border-top">
+    <p class="text-muted small">© 2026 JANAKI LAKSHMI JASTI</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
