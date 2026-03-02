@@ -51,16 +51,11 @@
         .split-row { display: flex; flex-wrap: wrap; min-height: 85vh; border-bottom: 1px solid #eee; }
         .split-image { flex: 1; min-width: 50%; background-size: cover; background-position: center; min-height: 450px; }
         .split-text { 
-            flex: 1; 
-            min-width: 50%; 
-            padding: 8% !important; 
-            display: flex; 
-            flex-direction: column; 
-            justify-content: center; 
-            background-color: #ffffff; /* Consistent white background */
+            flex: 1; min-width: 50%; padding: 8% !important; 
+            display: flex; flex-direction: column; justify-content: center; background-color: #ffffff;
         }
 
-        /* CARDS FOR PROJECTS & CERTS */
+        /* CARDS FOR EDUCATION, PROJECTS & CERTS */
         .card-custom {
             border: 1px solid #eaeaea;
             padding: 40px;
@@ -72,6 +67,9 @@
             display: block;
         }
         .card-custom:hover { border-color: #3b2b23; transform: translateY(-5px); }
+        
+        .course-tag { font-size: 0.95rem; color: #444; line-height: 1.6; }
+        .pub-category { text-transform: uppercase; font-size: 0.75rem; letter-spacing: 2px; color: #888; }
 
         @media (max-width: 992px) {
             .split-image { min-height: 350px; }
@@ -96,7 +94,9 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end custom-dropdown">
                         <li><button class="dropdown-item nav-tab-link" data-target="exp-tab">Professional Experience</button></li>
+                        <li><button class="dropdown-item nav-tab-link" data-target="edu-tab">Education</button></li>
                         <li><button class="dropdown-item nav-tab-link" data-target="proj-tab">Academic Projects</button></li>
+                        <li><button class="dropdown-item nav-tab-link" data-target="pub-tab">Publications</button></li>
                         <li><button class="dropdown-item nav-tab-link" data-target="cert-tab">Certifications & Awards</button></li>
                     </ul>
                 </li>
@@ -113,7 +113,7 @@
         <div class="split-row">
             <div class="split-image" style="background-image: url('https://www.deazy.com/hubfs/remote%20team%20meeting.png');"></div>
             <div class="split-text">
-                <h6 class="text-uppercase mb-3" style="letter-spacing: 3px; color: #888;">Texas A&M University</h6>
+                <h6 class="text-uppercase mb-3" style="letter-spacing: 3px; color: #888;">Texas A&M University-Kingsville</h6>
                 <h2 class="display-5 fw-bold mb-4">Student Worker</h2>
                 <div style="font-size: 1.1rem; line-height: 1.8; color: #444;">
                     <p>In this role, I supported faculty and administrative operations by maintaining accurate records of faculty CVs in the <strong>Watermark system</strong> and assisting with teaching load calculations.</p>
@@ -135,25 +135,62 @@
         </div>
     </div>
 
+    <div class="tab-pane" id="edu-tab">
+        <div class="container py-5 mt-4">
+            <h2 class="text-center mb-5">Academic Foundation</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="card-custom mb-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="fw-bold m-0" style="font-size: 1.4rem;">M.S. in Computer and Information Sciences</h3>
+                            <span class="badge bg-dark">2024 — PRESENT</span>
+                        </div>
+                        <h5 class="text-muted mb-3">Texas A&M University-Kingsville</h5>
+                        <p class="course-tag m-0"><strong>Core Coursework:</strong> Data Mining, Data Science, Artificial Intelligence, Machine Learning, Real Time Systems, Operating Systems, Cloud Computing, Computer Networks, Database Systems, Analysis of Algorithms.</p>
+                    </div>
+
+                    <div class="card-custom mb-5">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="fw-bold m-0" style="font-size: 1.4rem;">B.Tech in Information Technology</h3>
+                            <span class="badge bg-secondary">2021 — 2024</span>
+                        </div>
+                        <h5 class="text-muted mb-4">Sir C.R. Reddy College of Engineering</h5>
+                        
+                        <div class="mt-2">
+                            <p class="mb-1 fw-bold small text-uppercase" style="color: #888;">ML & Advanced Data Intelligence:</p>
+                            <p class="course-tag mb-3">Deep Learning, Machine Learning, AI, Data Mining, Big Data Analytics, Soft Computing, Statistics with R, Discrete Mathematics & Graph Theory.</p>
+
+                            <p class="mb-1 fw-bold small text-uppercase" style="color: #888;">Systems, Web & Security:</p>
+                            <p class="course-tag mb-3">DevOps, Cloud Computing, IoT, MEAN Stack Development, DBMS, NoSQL, Operating Systems, Computer Networks, Software Engineering, Ethical Hacking, Cryptography & Network Security.</p>
+
+                            <p class="mb-1 fw-bold small text-uppercase" style="color: #888;">Core Foundations & Design:</p>
+                            <p class="course-tag m-0">Python, Java, C, C++, Data Structures, Design & Analysis of Algorithms, Automata Theory, Microprocessors, Applied Physics, Mathematics, Adobe Photoshop, Adobe Illustrator.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="tab-pane" id="proj-tab">
         <div class="container py-5 mt-5">
-            <h1 class="text-center mb-5">Selected Projects</h1>
+            <h1 class="text-center mb-5">Academic Projects</h1>
             <div class="row g-4">
                 <div class="col-md-4">
                     <a href="https://github.com/JASTIJANAKILAKSHMI/Ai_Assistant_Usage_Student_Life" target="_blank" class="card-custom text-center">
-                        <h4 class="fw-bold">AI Assistant</h4>
+                        <h4 class="fw-bold">AI Assistant Usage in Student Life</h4>
                         <p class="text-muted">LLM-powered assistant containerized with Docker.</p>
                     </a>
                 </div>
                 <div class="col-md-4">
                     <a href="https://github.com/JASTIJANAKILAKSHMI/Predicting-Airline-passenger-satisfaction" target="_blank" class="card-custom text-center">
-                        <h4 class="fw-bold">Airline Satisfaction</h4>
+                        <h4 class="fw-bold">Predicting Airline Passenger Satisfaction</h4>
                         <p class="text-muted">Predictive models using Random Forest and XGBoost.</p>
                     </a>
                 </div>
                 <div class="col-md-4">
                     <a href="https://github.com/JASTIJANAKILAKSHMI/Fake-Profile-Identification-in-Social-Network-using-ML-NLP" target="_blank" class="card-custom text-center">
-                        <h4 class="fw-bold">Fraud Detection</h4>
+                        <h4 class="fw-bold">Fake Profile Identification in Social Network Using Machine Learning & NLP</h4>
                         <p class="text-muted">NLP pipeline detecting fake profiles via SVM.</p>
                     </a>
                 </div>
@@ -161,24 +198,68 @@
         </div>
     </div>
 
-    <div class="tab-pane" id="cert-tab">
+    <div class="tab-pane" id="pub-tab">
         <div class="container py-5 mt-5">
-            <h1 class="text-center mb-5">Certifications</h1>
-            <div class="row justify-content-center g-4">
-                <div class="col-md-5">
-                    <div class="card-custom text-center">
-                        <i class="fas fa-certificate fa-3x mb-4" style="color: #3b2b23"></i>
-                        <h3 class="fw-bold">Wipro TalentNext</h3>
-                        <p class="lead">Java Full Stack Developer</p>
-                        <a href="https://drive.google.com/file/d/1JRWCQfQCWjzx08PvQmEV-BQr7ib7wW-3/view?usp=sharing" target="_blank" class="btn btn-dark rounded-pill mt-3 px-4">View Certificate</a>
+            <h1 class="text-center mb-5">Selected Publications</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="card-custom">
+                        <span class="pub-category">IRJMETS • May 2024</span>
+                        <h3 class="fw-bold mt-2">Fake Profile Identification in Social Networks Using ML and NLP</h3>
+                        <p class="font-italic text-muted">Janaki Lakshmi Jasti</p>
+                        <p class="mt-4" style="line-height: 1.7; color: #444;">Developed an end-to-end ML and NLP pipeline using SVM, Naive Bayes, and Random Forest for fake profile detection. Applied TF-IDF vectorization and managed experimental tracking via Git.</p>
+                        
+                        <div class="mt-4">
+                            <a href="https://www.irjmets.com/uploadedfiles/paper//issue_5_may_2024/55226/final/fin_irjmets1715712090.pdf" target="_blank" class="btn btn-dark rounded-pill px-4">Read Full PDF</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-5">
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-pane" id="cert-tab">
+        <div class="container py-5 mt-5">
+            <h1 class="text-center mb-5">Professional Certifications</h1>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="card-custom text-center">
-                        <i class="fas fa-award fa-3x mb-4" style="color: #3b2b23"></i>
-                        <h3 class="fw-bold">Cisco Academy</h3>
-                        <p class="lead">Introduction to Data Science</p>
-                        <a href="https://www.credly.com/badges/2efc0e70-b9db-4fa2-8077-da06dcaac51a/public_url" target="_blank" class="btn btn-dark rounded-pill mt-3 px-4">View Badge</a>
+                        <i class="fas fa-award fa-2x mb-3" style="color: #3b2b23"></i>
+                        <h5 class="fw-bold">Introduction to Data Science</h5>
+                        <p class="small text-muted">Cisco Academy</p>
+                        <a href="https://www.credly.com/badges/2efc0e70-b9db-4fa2-8077-da06dcaac51a/public_url" target="_blank" class="btn btn-sm btn-dark rounded-pill px-3">View Badge</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card-custom text-center">
+                        <i class="fas fa-certificate fa-2x mb-3" style="color: #3b2b23"></i>
+                        <h5 class="fw-bold">Java Full Stack Developer</h5>
+                        <p class="small text-muted">Wipro TalentNext</p>
+                        <a href="https://drive.google.com/file/d/1JRWCQfQCWjzx08PvQmEV-BQr7ib7wW-3/view?usp=sharing" target="_blank" class="btn btn-sm btn-dark rounded-pill px-3">View Certificate</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card-custom text-center">
+                        <i class="fas fa-brain fa-2x mb-3" style="color: #3b2b23"></i>
+                        <h5 class="fw-bold">Data Science Intern</h5>
+                        <p class="small text-muted">Brain O Vision</p>
+                        <a href="https://drive.google.com/file/d/1zZ_T-Jx4VcvUzcAj0ySiy4s0L846rLg4/view?usp=drive_link" target="_blank" class="btn btn-sm btn-dark rounded-pill px-3">View</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card-custom text-center">
+                        <i class="fab fa-python fa-2x mb-3" style="color: #3b2b23"></i>
+                        <h5 class="fw-bold">Python Developer</h5>
+                        <p class="small text-muted">Brain O Vision</p>
+                        <a href="https://drive.google.com/file/d/1n4Bs8h5AmWbcHGYsuOLRGHSnh9dLShoa/view?usp=sharing" target="_blank" class="btn btn-sm btn-dark rounded-pill px-3">View</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card-custom text-center">
+                        <i class="fas fa-layer-group fa-2x mb-3" style="color: #3b2b23"></i>
+                        <h5 class="fw-bold">Deep Learning Developer</h5>
+                        <p class="small text-muted">Infosys Springboard</p>
+                        <a href="https://drive.google.com/file/d/1MU0qSUMfHvDueTWr-NwVgGzcbZVluBxU/view?usp=sharing" target="_blank" class="btn btn-sm btn-dark rounded-pill px-3">View</a>
                     </div>
                 </div>
             </div>
